@@ -5,11 +5,17 @@ sudo apt install nmap
 
 ## Comandos úteis
 nmap -sS -sV -T4 -p- -Pn 192.168.1.1
+
 -sS: scan TCP stealth
+
 -sV: detectar versões
+
 -T4: velocidade otimizada
+
 -p-: escanear todas as portas
+
 -Pn: ignora ping
+
 ## Casos de uso
 Identificar portas abertas e serviços
 Verificar vulnerabilidades conhecidas (script NSE)
